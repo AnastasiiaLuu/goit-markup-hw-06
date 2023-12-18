@@ -62,4 +62,90 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.container {max-width: 320px;
+padding-left: 16px;
+padding-right: 16px;
+margin-left: auto;
+margin-right: auto;}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    }
+
+@media screen and (min-width: 1158px) {
+    .container {
+    max-width: 1158px;
+            }
+        }
+
 /* ============== COMMON STYLES ============== */
+
+
+/* ============== MOBILE HEADER STYLES ============== */
+
+.nav {display: none;}
+
+.contacts-list {display: none;}
+
+.logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.logo-plus {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.mobile-menu-open-bth {background-color: transparent;
+border: none;
+padding: 0;
+stroke: #111;
+line-height: 0;}
+
+.header-container {display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.top-header{padding-top: 17.5px;
+padding-bottom: 17.5px;}
+
+.mobile-menu-open-wrapper {position: fixed;
+top: 0;
+left: 0;
+z-index: 99999999;
+width: 100%;
+height: 100%;
+display: flex;
+padding-bottom: 40px;
+background-color: #fff;
+transform: translateX(100%);
+transition: transform 250ms linear;
+    }
+
+
+/* ============== MOBILE HEADER STYLES ============== */
+
+
+/* ============== TABLET HEADER STYLES ============== */
+/* ============== TABLET HEADER STYLES ============== */
+
+
+
+/* ============== DESKTOP HEADER STYLES ============== */
+/* ============== DESKTOP HEADER STYLES ============== */
